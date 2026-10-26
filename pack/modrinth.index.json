@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.1",
+  "versionId": "1.0.2",
   "name": "Bakgården",
   "files": [
     {
@@ -78,21 +78,6 @@
         "https://cdn.modrinth.com/data/BgNRHReB/versions/TxWM7AW8/bclib-21.0.13.jar"
       ],
       "fileSize": 1486843
-    },
-    {
-      "path": "mods/better-end-21.0.11.jar",
-      "hashes": {
-        "sha1": "625f4340bd9ab67a08130a4167fc6a01777ab075",
-        "sha512": "d3094b88202fca1ccc055e8429eac42eac1bd696a82ed650a9f1426cd5b28bd08e0af4d41664ed3fad10d8477c6da7c6be9d626a5664cfbc664844355c97c5b1"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/gc8OEnCC/versions/4qhBEg6J/better-end-21.0.11.jar"
-      ],
-      "fileSize": 93380273
     },
     {
       "path": "mods/better-nether-21.0.11.jar",
@@ -650,19 +635,19 @@
       "fileSize": 5563037
     },
     {
-      "path": "mods/iris-fabric-1.8.8+mc1.21.1.jar",
+      "path": "mods/iris-fabric-1.8.14-beta.1+mc1.21.1.jar",
       "hashes": {
-        "sha1": "4e0df4011503b4b36ba69877ea7247c1a47fea00",
-        "sha512": "2e6ba2ffa1e1a6799288245a7e0ac68ee8df1d41b98362189df58f535cae34fa9277801e4136633467341b7dae5be0e5c698011b480b3d91b66d3dd4f7567aa6"
+        "sha1": "6776c0340845887477bfa463acc736ce7fcb6de5",
+        "sha512": "a7fbb629793c52f0be8b049f787cb598879239b1ad8e1de62e103c8b9efff140e3232b93ef1f14e505d262897d8cf9505b1126396429ad4056bff969c8674e52"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/YL57xq9U/versions/zsoi0dso/iris-fabric-1.8.8%2Bmc1.21.1.jar"
+        "https://cdn.modrinth.com/data/YL57xq9U/versions/bAo1Qhte/iris-fabric-1.8.14-beta.1%2Bmc1.21.1.jar"
       ],
-      "fileSize": 2690177
+      "fileSize": 2791343
     },
     {
       "path": "mods/IronChests-2.0.4.jar",
@@ -1023,6 +1008,21 @@
         "https://cdn.modrinth.com/data/F8BQNPWX/versions/VzAOvO8M/naturalist-2.0.7-fabric-1.21.1.jar"
       ],
       "fileSize": 11281261
+    },
+    {
+      "path": "mods/Nullscape_1.21.x_v1.2.14.jar",
+      "hashes": {
+        "sha1": "ae8e1cbd5de6cf6f450bb44cd69cd284dad690dd",
+        "sha512": "b35a9dfdc7180ca851aea378ee4687e18b3aae717c16870a7762afc67dc0c77598fb2c4a62cb12d6ed0eacf7c9166520e0a3e7dce20da09817065d27e62c8b44"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/LPjGiSO4/versions/3fv8O3xX/Nullscape_1.21.x_v1.2.14.jar"
+      ],
+      "fileSize": 355748
     },
     {
       "path": "mods/open-parties-and-claims-fabric-1.21.1-0.33.0.jar",

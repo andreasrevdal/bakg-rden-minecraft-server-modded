@@ -1,6 +1,6 @@
 {
   "name": "Bakgården",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minecraft": "1.21.1",
   "loader": "fabric",
   "mods": {
@@ -24,7 +24,7 @@
       "ironchest", "toms-storage", "immersive-aircraft", "universal-graves", "trade-cycling"
     ],
     "Verden": [
-      "tectonic", "terralith", "betternether", "betterend", "yungs-better-dungeons",
+      "tectonic", "terralith", "betternether", "nullscape", "yungs-better-dungeons",
       "yungs-better-mineshafts", "yungs-better-strongholds", "dungeons-and-taverns",
       "towns-and-towers", "explorify"
     ],
@@ -36,7 +36,7 @@
     ],
     "Ytelse": [
       "fabric-api", "lithium", "ferrite-core", "modernfix", "krypton",
-      "sodium", "iris", "entityculling", "immediatelyfast", "dynamic-fps"
+      "sodium", "iris@1.8.14", "entityculling", "immediatelyfast", "dynamic-fps"
     ],
     "Klient-QoL": [
       "modmenu", "jade", "emi", "xaeros-minimap", "xaeros-world-map", "zoomify", "travelers-titles"

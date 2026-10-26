@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - run: sudo apt-get install -y libarchive-tools
+      - run: node scripts/check.mjs
       - run: node scripts/build.mjs
       - uses: softprops/action-gh-release@v2
         with:

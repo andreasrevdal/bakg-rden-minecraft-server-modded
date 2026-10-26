@@ -20,7 +20,7 @@ Gi spillet **6–8 GB** minne i instansens Java-innstillinger, og koble til `mod
 | Dyr og mobs | Naturalist, Friends & Foes, Critters and Companions, Creeper Overhaul |
 | Bygging | Macaw's (møbler, tak, vinduer, dører, broer, gjerder), Handcrafted, Supplementaries, Rechiseled, Immersive Paintings |
 | Verktøy | Traveler's Backpack, Carry On, Waystones, Comforts, FallingTree, Iron Chests, Tom's Simple Storage, Immersive Aircraft, Universal Graves, Trade Cycling |
-| Verden | Tectonic + Terralith, BetterNether, BetterEnd, YUNG's Dungeons/Mineshafts/Strongholds, Dungeons and Taverns, Towns and Towers, Explorify |
+| Verden | Tectonic + Terralith, BetterNether, Nullscape (End), YUNG's Dungeons/Mineshafts/Strongholds, Dungeons and Taverns, Towns and Towers, Explorify |
 | Sosialt | Simple Voice Chat, Open Parties and Claims |
 | Ytelse / QoL | Sodium, Iris, Lithium, FerriteCore, ModernFix, EntityCulling, ImmediatelyFast, Dynamic FPS, Jade, EMI, Xaero's Minimap/World Map, Zoomify |
 
@@ -32,4 +32,5 @@ Full liste med versjoner: [`pack/modrinth.index.json`](pack/modrinth.index.json)
 node scripts/build.mjs            # dist/bakgarden.mrpack
 node scripts/build.mjs --update   # hent nyeste versjoner fra pack/mods.json
 node scripts/build.mjs --server   # + serverfiler i dist/server/
+node scripts/check.mjs            # sjekk avhengigheter/konflikter som Fabric gjør
 ```

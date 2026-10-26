@@ -22,10 +22,11 @@ async function get(url) {
   return r.json();
 }
 
-async function latestVersion(projectId) {
+// pin: optional text the version number must contain ("sodium@0.6.13" in mods.json).
+async function latestVersion(projectId, pin) {
   const q = `loaders=${encodeURIComponent(JSON.stringify([cfg.loader]))}&game_versions=${encodeURIComponent(JSON.stringify([cfg.minecraft]))}`;
-  const versions = await get(`${API}/project/${projectId}/version?${q}`);
-  if (!versions.length) throw new Error(`${projectId} has no ${cfg.loader} ${cfg.minecraft} version`);
+  const versions = (await get(`${API}/project/${projectId}/version?${q}`)).filter((v) => !pin || v.version_number.includes(pin));
+  if (!versions.length) throw new Error(`${projectId} has no ${cfg.loader} ${cfg.minecraft} version${pin ? ` matching ${pin}` : ""}`);
   return versions.find((v) => v.version_type === "release") ?? versions[0];
 }
 
@@ -36,12 +37,13 @@ async function resolve() {
   const seen = new Map(); // project_id -> { project, version }
   const incompatible = [];
   const edges = []; // [parent project id, required dependency project id]
-  const queue = [...wanted];
+  const pins = new Map(wanted.map((w) => w.split("@")));
+  const queue = [...pins.keys()];
   while (queue.length) {
     const id = queue.shift();
     const project = await get(`${API}/project/${id}`);
     if (seen.has(project.id)) continue;
-    const version = await latestVersion(project.id);
+    const version = await latestVersion(project.id, pins.get(project.slug) ?? pins.get(id));
     seen.set(project.id, { project, version, env: { client: side(project.client_side), server: side(project.server_side) } });
     console.log(`  ${project.slug} ${version.version_number}`);
     for (const d of version.dependencies) {
