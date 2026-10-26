@@ -1,0 +1,45 @@
+{
+  "name": "Bakgården",
+  "version": "1.0.0",
+  "minecraft": "1.21.1",
+  "loader": "fabric",
+  "mods": {
+    "Progresjon og loot": [
+      "tieredz", "artifacts", "trinkets", "bosses-of-mass-destruction", "lootr", "bountiful",
+      "simply-swords", "immersive-armors", "enhanced-celestials"
+    ],
+    "Mat og farming": [
+      "farmers-delight-refabricated", "more-delight", "lets-do-vinery", "lets-do-farm-charm",
+      "serene-seasons", "spice-of-fabric", "appleskin"
+    ],
+    "Dyr og mobs": [
+      "naturalist", "friends-and-foes", "critters-and-companions", "creeper-overhaul"
+    ],
+    "Bygging": [
+      "macaws-furniture", "macaws-roofs", "macaws-windows", "macaws-doors", "macaws-bridges",
+      "macaws-fences-and-walls", "handcrafted", "supplementaries", "rechiseled", "immersive-paintings"
+    ],
+    "Verktøy og småtech": [
+      "travelersbackpack", "carry-on", "waystones", "comforts", "fallingtree",
+      "ironchest", "toms-storage", "immersive-aircraft", "universal-graves", "trade-cycling"
+    ],
+    "Verden": [
+      "tectonic", "terralith", "betternether", "betterend", "yungs-better-dungeons",
+      "yungs-better-mineshafts", "yungs-better-strongholds", "dungeons-and-taverns",
+      "towns-and-towers", "explorify"
+    ],
+    "Sosialt": [
+      "simple-voice-chat", "open-parties-and-claims", "discord-mc-chat"
+    ],
+    "Admin": [
+      "luckperms", "spark", "ledger", "essential-commands", "chunky", "bluemap"
+    ],
+    "Ytelse": [
+      "fabric-api", "lithium", "c2me-fabric", "ferrite-core", "modernfix", "krypton",
+      "sodium", "iris", "entityculling", "immediatelyfast", "dynamic-fps"
+    ],
+    "Klient-QoL": [
+      "modmenu", "jade", "emi", "xaeros-minimap", "xaeros-world-map", "zoomify", "travelers-titles"
+    ]
+  }
+}
