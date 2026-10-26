@@ -1,12 +1,12 @@
 {
   "name": "Bakgården",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "minecraft": "1.21.1",
   "loader": "fabric",
   "mods": {
     "Progresjon og loot": [
       "tieredz", "artifacts", "trinkets", "bosses-of-mass-destruction", "lootr", "bountiful", "kambrik",
-      "simply-swords", "immersive-armors", "enhanced-celestials"
+      "simply-swords", "immersive-armors", "enhanced-celestials@6.0.2.5", "advanced-netherite"
     ],
     "Mat og farming": [
       "farmers-delight-refabricated", "more-delight", "lets-do-vinery", "lets-do-farm-charm",
@@ -21,10 +21,10 @@
     ],
     "Verktøy og småtech": [
       "travelersbackpack", "carry-on", "waystones", "comforts", "fallingtree",
-      "ironchest", "toms-storage", "immersive-aircraft", "universal-graves", "trade-cycling"
+      "ironchest", "extended-drawers", "toms-storage", "immersive-aircraft", "universal-graves", "trade-cycling"
     ],
     "Verden": [
-      "tectonic", "terralith", "betternether", "nullscape", "yungs-better-dungeons",
+      "tectonic", "terralith", "betternether", "nullscape", "enderscape", "yungs-better-dungeons",
       "yungs-better-mineshafts", "yungs-better-strongholds", "dungeons-and-taverns",
       "towns-and-towers", "explorify"
     ],
