@@ -35,32 +35,43 @@ async function resolve() {
   const wanted = Object.values(cfg.mods).flat();
   const seen = new Map(); // project_id -> { project, version }
   const incompatible = [];
+  const edges = []; // [parent project id, required dependency project id]
   const queue = [...wanted];
   while (queue.length) {
     const id = queue.shift();
     const project = await get(`${API}/project/${id}`);
     if (seen.has(project.id)) continue;
     const version = await latestVersion(project.id);
-    seen.set(project.id, { project, version });
+    seen.set(project.id, { project, version, env: { client: side(project.client_side), server: side(project.server_side) } });
     console.log(`  ${project.slug} ${version.version_number}`);
     for (const d of version.dependencies) {
       if (!d.project_id) continue;
-      if (d.dependency_type === "required") queue.push(d.project_id);
+      if (d.dependency_type === "required") queue.push(d.project_id), edges.push([project.id, d.project_id]);
       if (d.dependency_type === "incompatible") incompatible.push([project.slug, d.project_id]);
     }
   }
   for (const [slug, other] of incompatible)
     if (seen.has(other)) console.warn(`WARNING: ${slug} is incompatible with ${seen.get(other).project.slug}`);
+  // A library must be installed on every side its dependents run on, whatever its own project page says.
+  for (let changed = true; changed; ) {
+    changed = false;
+    for (const [p, c] of edges) {
+      const parent = seen.get(p).env, child = seen.get(c)?.env;
+      if (!child) continue;
+      for (const s of ["client", "server"])
+        if (parent[s] !== "unsupported" && child[s] === "unsupported") (child[s] = "required"), (changed = true);
+    }
+  }
 
   const loaders = await get(`https://meta.fabricmc.net/v2/versions/loader/${cfg.minecraft}`);
   const files = [...seen.values()]
     .sort((a, b) => a.project.slug.localeCompare(b.project.slug))
-    .map(({ project, version }) => {
+    .map(({ version, env }) => {
       const f = version.files.find((x) => x.primary) ?? version.files[0];
       return {
         path: `mods/${f.filename}`,
         hashes: { sha1: f.hashes.sha1, sha512: f.hashes.sha512 },
-        env: { client: side(project.client_side), server: side(project.server_side) },
+        env,
         downloads: [f.url],
         fileSize: f.size,
       };

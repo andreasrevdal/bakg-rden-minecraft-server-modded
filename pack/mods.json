@@ -1,11 +1,11 @@
 {
   "name": "Bakgården",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minecraft": "1.21.1",
   "loader": "fabric",
   "mods": {
     "Progresjon og loot": [
-      "tieredz", "artifacts", "trinkets", "bosses-of-mass-destruction", "lootr", "bountiful",
+      "tieredz", "artifacts", "trinkets", "bosses-of-mass-destruction", "lootr", "bountiful", "kambrik",
       "simply-swords", "immersive-armors", "enhanced-celestials"
     ],
     "Mat og farming": [
@@ -29,13 +29,13 @@
       "towns-and-towers", "explorify"
     ],
     "Sosialt": [
-      "simple-voice-chat", "open-parties-and-claims", "discord-mc-chat"
+      "simple-voice-chat", "open-parties-and-claims"
     ],
     "Admin": [
       "luckperms", "spark", "ledger", "essential-commands", "chunky", "bluemap", "minimotd"
     ],
     "Ytelse": [
-      "fabric-api", "lithium", "c2me-fabric", "ferrite-core", "modernfix", "krypton",
+      "fabric-api", "lithium", "ferrite-core", "modernfix", "krypton",
       "sodium", "iris", "entityculling", "immediatelyfast", "dynamic-fps"
     ],
     "Klient-QoL": [

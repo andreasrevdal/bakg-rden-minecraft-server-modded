@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.0",
+  "versionId": "1.0.1",
   "name": "Bakgården",
   "files": [
     {
@@ -155,21 +155,6 @@
       "fileSize": 739372
     },
     {
-      "path": "mods/c2me-fabric-mc1.21.1-0.4.0-alpha.0.30.jar",
-      "hashes": {
-        "sha1": "7ce266eb1d7ff617751ed1f0ebb203662ed641b3",
-        "sha512": "6fa50f7d626c0d0f9b877c76a2b176d8d22db17bf0530aa07ddd2a7d2f65a6328eb5326376aa28ae474d6c08610842c975548db4efc253f8386fdaefc60e08db"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/VSNURh3q/versions/KxcgERSN/c2me-fabric-mc1.21.1-0.4.0-alpha.0.30.jar"
-      ],
-      "fileSize": 3810456
-    },
-    {
       "path": "mods/cardinal-components-api-6.1.3.jar",
       "hashes": {
         "sha1": "e762f5205c0fd0f9bed1c04432bf9b51ec832882",
@@ -318,21 +303,6 @@
         "https://cdn.modrinth.com/data/z2XEADmE/versions/puBUxsNk/Data_Anchor-fabric-1.21.1-2.0.0.17.jar"
       ],
       "fileSize": 126060
-    },
-    {
-      "path": "mods/Discord-MC-Chat-2.7.1.jar",
-      "hashes": {
-        "sha1": "786b3477bb3c76a85febba3f871a914b25004e0f",
-        "sha512": "8e57146ae4f306be93cfc39717a618351ddcc29630ba9f599a4a1a56b6d02540b876b3dd6dd845ec57fe39709f510b362203f8840b81fb67102a140e2f4e1242"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/D0sHdnXY/versions/aWxpt7iY/Discord-MC-Chat-2.7.1.jar"
-      ],
-      "fileSize": 17474174
     },
     {
       "path": "mods/dungeons-and-taverns-v4.4.4.jar",
@@ -552,7 +522,7 @@
       },
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/p19vrgc2/versions/LQSMRNBf/fusion-1.3.16-fabric-mc1.21.jar"
@@ -725,6 +695,21 @@
       "fileSize": 740746
     },
     {
+      "path": "mods/kambrik-fabric-8.0.0-beta.2.jar",
+      "hashes": {
+        "sha1": "b5da4b9ed426728e02611642cabe1a6b0514ac95",
+        "sha512": "54060f83fff566d23d13e5a449076ffbe3230bbc3357170bb17c10de7a63be1fd98f5632e84ddac40eb402bb162d1b4e2762a91ae193d93d60df156dbb6e645c"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/zfbCkvdZ/versions/eMIEIbFZ/kambrik-fabric-8.0.0-beta.2.jar"
+      ],
+      "fileSize": 457787
+    },
+    {
       "path": "mods/krypton-0.2.8.jar",
       "hashes": {
         "sha1": "73e792eb5f120787becda4b87b6ff18b26caea50",
@@ -821,7 +806,7 @@
         "sha512": "4854c2bccc969c0a84d9600825d899b391353917e26eb5ce8dc190d666c10b59bdbe1c8a63e900c7473d7f774e71e63a2c0e6f9efa7f5577ed90710295bd2cd7"
       },
       "env": {
-        "client": "unsupported",
+        "client": "required",
         "server": "required"
       },
       "downloads": [
@@ -1182,7 +1167,7 @@
       },
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/6avVoBVB/versions/JNwqmYnu/SimplyTooltips-fabric-0.1.5.jar"
