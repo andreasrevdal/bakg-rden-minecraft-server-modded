@@ -32,7 +32,7 @@
       "simple-voice-chat", "open-parties-and-claims", "discord-mc-chat"
     ],
     "Admin": [
-      "luckperms", "spark", "ledger", "essential-commands", "chunky", "bluemap"
+      "luckperms", "spark", "ledger", "essential-commands", "chunky", "bluemap", "minimotd"
     ],
     "Ytelse": [
       "fabric-api", "lithium", "c2me-fabric", "ferrite-core", "modernfix", "krypton",

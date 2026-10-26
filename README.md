@@ -81,3 +81,5 @@ Bruk panelets **Backups**-fane (planlegg daglig under *Schedules*). Ta alltid ba
 Klient og server **må** ha samme versjon av pakken.
 
 Configfiler som skal med til både klient og server legges i `pack/overrides/config/`; kun-server-filer i `server/`.
+
+MOTD-en ligger i `server/config/MiniMOTD/main.conf`. Serverikonet legges som `server/server-icon.png` (64×64 PNG). Det vises også automatisk på spill.revdal.no.
