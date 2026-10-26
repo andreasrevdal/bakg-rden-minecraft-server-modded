@@ -11,7 +11,22 @@ Last ned **[bakgarden.mrpack](https://github.com/andreasrevdal/bakg-rden-minecra
 
 Gi spillet **6–8 GB** minne i instansens Java-innstillinger, og koble til `modded.revdal.no`.
 
-## Oppdater uten å miste innstillinger
+## Automatisk oppdatering (Prism)
+
+Gjør dette én gang, så henter spillet nye mods selv hver gang du starter. Innstillinger, shaders, teksturpakker og kart blir liggende.
+
+1. Høyreklikk instansen → *Edit* → *Settings* → fanen *Custom commands*.
+2. Huk av for *Custom commands* og lim inn dette som **Pre-launch command**:
+
+   ```
+   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/andreasrevdal/bakg-rden-minecraft-server-modded/main/packwiz/pack.toml
+   ```
+
+3. Start spillet. Et lite vindu viser at mods sjekkes og lastes ned før Minecraft åpner.
+
+Krever pakken fra v1.0.5 eller nyere (den har med `packwiz-installer-bootstrap.jar`).
+
+## Oppdater manuelt (Modrinth App eller uten auto-oppdatering)
 
 Du må ha samme versjon som serveren. Ny versjon = ny instans, så flytt over det som er ditt:
 
