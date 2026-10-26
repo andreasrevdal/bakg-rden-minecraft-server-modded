@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.3",
+  "versionId": "1.0.4",
   "name": "Bakgården",
   "files": [
     {
@@ -755,6 +755,21 @@
       "fileSize": 161045
     },
     {
+      "path": "mods/LeavesBeGone-v21.1.1-1.21.1-Fabric.jar",
+      "hashes": {
+        "sha1": "b0f60368cb0e06dc4b0b4d465a6f04b1ec421c18",
+        "sha512": "d9b73402b9d97ca5f8192b260cb88b0bce8939537fc2da5a868dfd41df397acd24d24396187539f5e18c49628953bfe6b7bfcfacd82ffc12fc16fe1e33b498dc"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/AVq17PqV/versions/hYZEEekT/LeavesBeGone-v21.1.1-1.21.1-Fabric.jar"
+      ],
+      "fileSize": 55826
+    },
+    {
       "path": "mods/ledger-1.3.5.jar",
       "hashes": {
         "sha1": "cd9b3722e540df48ba24b169a594132cbf1af1f3",
@@ -1085,6 +1100,21 @@
       "fileSize": 1988229
     },
     {
+      "path": "mods/ore-vein-miner-7.01R.jar",
+      "hashes": {
+        "sha1": "adb5916fb70231323fd92a54f756662c85192371",
+        "sha512": "0cd9eb6c3880be60c9bcf1069d250c27dc880012a9d17c4b705782e8045b3961699c8253ca753979a867dc33d6fd234049e6c52328ba5a854de338468d415ead"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Xl2GihRU/versions/DGYptgDM/ore-vein-miner-7.01R.jar"
+      ],
+      "fileSize": 342729
+    },
+    {
       "path": "mods/placeholder-api-2.4.2+1.21.jar",
       "hashes": {
         "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3",
@@ -1113,6 +1143,21 @@
         "https://cdn.modrinth.com/data/xGdtZczs/versions/xqZ9fctS/polymer-bundled-0.9.19%2B1.21.1.jar"
       ],
       "fileSize": 1705944
+    },
+    {
+      "path": "mods/puzzleslib-v21.1.66-mc1.21.1+fabric.jar",
+      "hashes": {
+        "sha1": "fc946af8992dbf77a1de98b2e9fbdb72071b495c",
+        "sha512": "e74aa63ea4593f37a4a342b555b68da696786c21a44d81961573e96d6cb60113029b1e408eaadb0e7b12e4c858771f372dc2d825f43f725f74b98a1ad90f018f"
+      },
+      "env": {
+        "client": "optional",
+        "server": "optional"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/QAGBst4M/versions/IV6k1yRp/puzzleslib-v21.1.66-mc1.21.1%2Bfabric.jar"
+      ],
+      "fileSize": 1507756
     },
     {
       "path": "mods/rechiseled-1.2.6-fabric-mc1.21.jar",
@@ -1158,6 +1203,21 @@
         "https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar"
       ],
       "fileSize": 485586
+    },
+    {
+      "path": "mods/Resourcify (1.21.1-fabric)-1.8.7.jar",
+      "hashes": {
+        "sha1": "c7f5aafe2ecca5e7a9e882533229bc16ae78cba0",
+        "sha512": "26b4a1940bc6f472f595c5047df4baddf2f5864d0113f5e5f691145dc933762aa1250296ab3bd971967e800fc00d741a646fd784be9ba7f1ed9ee542da267087"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/RLzHAoZe/versions/w6UrJgmO/Resourcify%20%281.21.1-fabric%29-1.8.7.jar"
+      ],
+      "fileSize": 2946833
     },
     {
       "path": "mods/SereneSeasons-fabric-1.21.1-10.1.0.9.jar",

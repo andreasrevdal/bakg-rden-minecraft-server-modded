@@ -9,7 +9,26 @@ Last ned **[bakgarden.mrpack](https://github.com/andreasrevdal/bakg-rden-minecra
 - **Prism Launcher:** *Add Instance → Import* → lim inn lenken over.
 - **Modrinth App:** dra fila inn i appen.
 
-Gi spillet **6–8 GB** minne i instansens Java-innstillinger, og koble til `modded.revdal.no`. Ny versjon? Importer på nytt – du må ha samme versjon som serveren.
+Gi spillet **6–8 GB** minne i instansens Java-innstillinger, og koble til `modded.revdal.no`.
+
+## Oppdater uten å miste innstillinger
+
+Du må ha samme versjon som serveren. Ny versjon = ny instans, så flytt over det som er ditt:
+
+1. Importer den nye `.mrpack`-en som en **ny** instans (samme lenke som over).
+2. Åpne mappa til den gamle instansen (Prism: høyreklikk → *Folder*; Modrinth App: ⋯ → *Open folder*) og kopier disse inn i den nye instansens `minecraft`-mappe:
+
+   | Kopier | Hva det er |
+   |---|---|
+   | `options.txt` | Taster, grafikk, lyd |
+   | `config/iris.properties` | Hvilken shader som er på |
+   | `shaderpacks/`, `resourcepacks/` | Shaders og teksturpakker (også de fra Resourcify) |
+   | `xaero/` | Minimap, verdenskart og waypoints |
+   | `servers.dat`, `screenshots/` | Serverliste og skjermbilder |
+
+3. Sett minnet (6–8 GB) på nytt i den nye instansen, start, og slett den gamle når alt ser riktig ut.
+
+Ikke kopier `mods/` eller resten av `config/` – det er det som kommer nytt med oppdateringen.
 
 ## Mods
 
@@ -19,10 +38,10 @@ Gi spillet **6–8 GB** minne i instansens Java-innstillinger, og koble til `mod
 | Mat og farming | Farmer's Delight + More Delight, Let's Do Vinery + Farm & Charm, Serene Seasons, Spice of Fabric, AppleSkin |
 | Dyr og mobs | Naturalist, Friends & Foes, Critters and Companions, Creeper Overhaul |
 | Bygging | Macaw's (møbler, tak, vinduer, dører, broer, gjerder), Handcrafted, Supplementaries, Rechiseled, Immersive Paintings |
-| Verktøy | Traveler's Backpack, Carry On, Waystones, Comforts, FallingTree, Iron Chests, Extended Drawers, Tom's Simple Storage, Immersive Aircraft, Universal Graves, Trade Cycling |
+| Verktøy | Traveler's Backpack, Carry On, Waystones, Comforts, FallingTree, Ore Vein Miner, Leaves Be Gone, Iron Chests, Extended Drawers, Tom's Simple Storage, Immersive Aircraft, Universal Graves, Trade Cycling |
 | Verden | Tectonic + Terralith, BetterNether, Nullscape + Enderscape (End), YUNG's Dungeons/Mineshafts/Strongholds, Dungeons and Taverns, Towns and Towers, Explorify |
 | Sosialt | Simple Voice Chat, Open Parties and Claims, Essential Commands (`/home`, `/tpa`, `/spawn`, `/back`) |
-| Ytelse / QoL | Sodium, Iris, Lithium, FerriteCore, ModernFix, EntityCulling, ImmediatelyFast, Dynamic FPS, Jade, EMI, Xaero's Minimap/World Map, Zoomify |
+| Ytelse / QoL | Sodium, Iris, Lithium, FerriteCore, ModernFix, EntityCulling, ImmediatelyFast, Dynamic FPS, Jade, EMI, Xaero's Minimap/World Map, Zoomify, Resourcify (finn teksturpakker og shaders i spillet) |
 
 Full liste med versjoner: [`pack/modrinth.index.json`](pack/modrinth.index.json).
 
