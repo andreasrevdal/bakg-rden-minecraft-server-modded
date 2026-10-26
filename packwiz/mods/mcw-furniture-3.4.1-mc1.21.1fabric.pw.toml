@@ -1,0 +1,8 @@
+name = "mcw-furniture-3.4.1-mc1.21.1fabric.jar"
+filename = "mcw-furniture-3.4.1-mc1.21.1fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dtWC90iB/versions/x2pXgG0s/mcw-furniture-3.4.1-mc1.21.1fabric.jar"
+hash-format = "sha1"
+hash = "4c914a4d3bb84103b34346e60c6aa981be8dfa23"

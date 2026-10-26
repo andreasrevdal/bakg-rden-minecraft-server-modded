@@ -1,0 +1,3 @@
+# packwiz hashes are over the exact bytes; never convert line endings
+packwiz/** -text
+*.jar binary

@@ -1,0 +1,13 @@
+{
+  "internal": {
+    "did_present_welcome_screen": true
+  },
+  "general": {
+    "check_for_new_versions": false,
+    "prefere_modrinth": true,
+    "force_betterx_world_type": true
+  },
+  "loading": {
+    "disable_experimental_warning": true
+  }
+}

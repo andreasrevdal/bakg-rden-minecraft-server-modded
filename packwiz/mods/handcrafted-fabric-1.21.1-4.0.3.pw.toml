@@ -1,0 +1,8 @@
+name = "handcrafted-fabric-1.21.1-4.0.3.jar"
+filename = "handcrafted-fabric-1.21.1-4.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pJmCFF0p/versions/f0pKpUWd/handcrafted-fabric-1.21.1-4.0.3.jar"
+hash-format = "sha1"
+hash = "a9579fecd7ed429c282be21d5c921d220197acc6"

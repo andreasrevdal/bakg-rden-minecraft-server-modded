@@ -1,0 +1,8 @@
+name = "Data_Anchor-fabric-1.21.1-2.0.0.17.jar"
+filename = "Data_Anchor-fabric-1.21.1-2.0.0.17.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/z2XEADmE/versions/puBUxsNk/Data_Anchor-fabric-1.21.1-2.0.0.17.jar"
+hash-format = "sha1"
+hash = "203d7868586a803f8ce1e0bde5b6fd7f70801ce5"

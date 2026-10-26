@@ -1,0 +1,8 @@
+name = "supermartijn642corelib-1.1.25-fabric-mc1.21.jar"
+filename = "supermartijn642corelib-1.1.25-fabric-mc1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rOUBggPv/versions/ImY2F2fz/supermartijn642corelib-1.1.25-fabric-mc1.21.jar"
+hash-format = "sha1"
+hash = "3339afb26de57eb3b83aed326e6cab5c1af1e490"

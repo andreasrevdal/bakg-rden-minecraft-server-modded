@@ -1,0 +1,8 @@
+name = "letsdo-farm_and_charm-fabric-1.1.29.jar"
+filename = "letsdo-farm_and_charm-fabric-1.1.29.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HJetCzWo/versions/dBeMI34d/letsdo-farm_and_charm-fabric-1.1.29.jar"
+hash-format = "sha1"
+hash = "4fbc56453b634119af065d4331497650eb86798c"

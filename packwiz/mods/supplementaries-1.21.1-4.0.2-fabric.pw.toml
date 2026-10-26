@@ -1,0 +1,8 @@
+name = "supplementaries-1.21.1-4.0.2-fabric.jar"
+filename = "supplementaries-1.21.1-4.0.2-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fFEIiSDQ/versions/CjTooKpp/supplementaries-1.21.1-4.0.2-fabric.jar"
+hash-format = "sha1"
+hash = "761a561938ced83d5e38da50cdc44899b5052f3e"

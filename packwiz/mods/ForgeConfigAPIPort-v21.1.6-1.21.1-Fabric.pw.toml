@@ -1,0 +1,8 @@
+name = "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+filename = "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+hash-format = "sha1"
+hash = "18bf1f21cd2db6dcd4e42db85eae54e2a49a48ee"

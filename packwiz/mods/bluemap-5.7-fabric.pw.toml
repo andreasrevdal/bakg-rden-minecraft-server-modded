@@ -1,0 +1,8 @@
+name = "bluemap-5.7-fabric.jar"
+filename = "bluemap-5.7-fabric.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/swbUV1cr/versions/Dr2hvJBc/bluemap-5.7-fabric.jar"
+hash-format = "sha1"
+hash = "42777d6140234a75243c04156b63cfbe562a1cdb"

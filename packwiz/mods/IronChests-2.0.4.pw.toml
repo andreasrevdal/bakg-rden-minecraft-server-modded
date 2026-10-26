@@ -1,0 +1,8 @@
+name = "IronChests-2.0.4.jar"
+filename = "IronChests-2.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7mHyGgvW/versions/rHtTi59k/IronChests-2.0.4.jar"
+hash-format = "sha1"
+hash = "9955f424f4254110a77412bf34d62d46d20120a1"

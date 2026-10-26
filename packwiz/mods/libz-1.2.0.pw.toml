@@ -1,0 +1,8 @@
+name = "libz-1.2.0.jar"
+filename = "libz-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yUBXc3AH/versions/hPy38OJT/libz-1.2.0.jar"
+hash-format = "sha1"
+hash = "183e4459e0e45dd911b49d4ec5cd53c4e6a0b144"

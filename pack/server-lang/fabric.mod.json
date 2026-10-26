@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "bakgarden_lang",
+  "version": "1.0.0",
+  "name": "Bakgården språk",
+  "description": "Norske meldinger for Essential Commands (language=nb_no).",
+  "environment": "server",
+  "depends": { "essential_commands": "*" }
+}

@@ -1,0 +1,8 @@
+name = "lithostitched-1.8.1-fabric-21.1.jar"
+filename = "lithostitched-1.8.1-fabric-21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XaDC71GB/versions/GZFp8lnS/lithostitched-1.8.1-fabric-21.1.jar"
+hash-format = "sha1"
+hash = "f295e89ad7f18a2ba20da2deb33efabfbe63ed43"

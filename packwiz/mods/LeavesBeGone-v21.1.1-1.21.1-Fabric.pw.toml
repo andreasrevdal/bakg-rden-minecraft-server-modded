@@ -1,0 +1,8 @@
+name = "LeavesBeGone-v21.1.1-1.21.1-Fabric.jar"
+filename = "LeavesBeGone-v21.1.1-1.21.1-Fabric.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/AVq17PqV/versions/hYZEEekT/LeavesBeGone-v21.1.1-1.21.1-Fabric.jar"
+hash-format = "sha1"
+hash = "b0f60368cb0e06dc4b0b4d465a6f04b1ec421c18"

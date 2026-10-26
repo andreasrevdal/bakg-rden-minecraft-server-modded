@@ -1,0 +1,8 @@
+name = "crittersandcompanions-fabric-1.21.1-2.7.0.jar"
+filename = "crittersandcompanions-fabric-1.21.1-2.7.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Yd4wb5wZ/versions/p19ZPlZD/crittersandcompanions-fabric-1.21.1-2.7.0.jar"
+hash-format = "sha1"
+hash = "1d5a5bd681f9b70164165f5728f2660cc49a36a3"

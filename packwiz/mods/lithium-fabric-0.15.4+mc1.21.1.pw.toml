@@ -1,0 +1,8 @@
+name = "lithium-fabric-0.15.4+mc1.21.1.jar"
+filename = "lithium-fabric-0.15.4+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gvQqBUqZ/versions/N08Z8wog/lithium-fabric-0.15.4%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "7d82a004403b7780d4443d8e40361a55cfd0ae63"

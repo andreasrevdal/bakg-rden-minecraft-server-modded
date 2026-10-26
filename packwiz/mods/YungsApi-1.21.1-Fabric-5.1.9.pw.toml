@@ -1,0 +1,8 @@
+name = "YungsApi-1.21.1-Fabric-5.1.9.jar"
+filename = "YungsApi-1.21.1-Fabric-5.1.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ua7DFN59/versions/9rzwORd6/YungsApi-1.21.1-Fabric-5.1.9.jar"
+hash-format = "sha1"
+hash = "28f46d1f21cf5b1ccb2efbccda6ba66ab2168407"

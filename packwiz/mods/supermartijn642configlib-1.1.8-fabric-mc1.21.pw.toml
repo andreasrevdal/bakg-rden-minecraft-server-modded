@@ -1,0 +1,8 @@
+name = "supermartijn642configlib-1.1.8-fabric-mc1.21.jar"
+filename = "supermartijn642configlib-1.1.8-fabric-mc1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LN9BxssP/versions/euSlaAtA/supermartijn642configlib-1.1.8-fabric-mc1.21.jar"
+hash-format = "sha1"
+hash = "8427e42f1db8ea7b4b6c21cc94bfcfa398f0ff63"

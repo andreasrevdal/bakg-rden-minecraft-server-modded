@@ -1,0 +1,8 @@
+name = "worldweaver-21.0.13.jar"
+filename = "worldweaver-21.0.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RiN8rDVs/versions/mPmeykPR/worldweaver-21.0.13.jar"
+hash-format = "sha1"
+hash = "01e7196395386bbddc3ff7d47fe37869a850cecd"

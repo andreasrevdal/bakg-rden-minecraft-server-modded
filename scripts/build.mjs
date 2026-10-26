@@ -94,6 +94,36 @@ if (args.includes("--update") || !fs.existsSync(lockPath)) {
 }
 const index = JSON.parse(fs.readFileSync(lockPath, "utf8"));
 
+// packwiz/ = the same pack for packwiz-installer, which players run before each launch to auto-update.
+// Served from the main branch on GitHub, so pushing a new lockfile updates everyone on their next start.
+{
+  const pw = path.join(root, "packwiz");
+  const sha256 = (buf) => crypto.createHash("sha256").update(buf).digest("hex");
+  const pwSide = (env) => (env.client === "unsupported" ? "server" : env.server === "unsupported" ? "client" : "both");
+  fs.rmSync(pw, { recursive: true, force: true });
+  fs.mkdirSync(path.join(pw, "mods"), { recursive: true });
+  const entries = [];
+  for (const f of index.files) {
+    const name = path.basename(f.path);
+    const meta = [`name = ${JSON.stringify(name)}`, `filename = ${JSON.stringify(name)}`, `side = "${pwSide(f.env)}"`, "", "[download]", `url = ${JSON.stringify(f.downloads[0])}`, `hash-format = "sha1"`, `hash = "${f.hashes.sha1}"`, ""].join("\n");
+    const rel = `mods/${name.replace(/\.jar$/, "")}.pw.toml`;
+    fs.writeFileSync(path.join(pw, rel), meta);
+    entries.push(`[[files]]\nfile = ${JSON.stringify(rel)}\nhash = "${sha256(meta)}"\nmetafile = true\n`);
+  }
+  if (fs.existsSync(overrides))
+    for (const rel of fs.readdirSync(overrides, { recursive: true })) {
+      const src = path.join(overrides, rel);
+      if (!fs.statSync(src).isFile() || rel.endsWith(".jar")) continue;
+      const posix = rel.split(path.sep).join("/");
+      fs.mkdirSync(path.dirname(path.join(pw, rel)), { recursive: true });
+      fs.copyFileSync(src, path.join(pw, rel));
+      entries.push(`[[files]]\nfile = ${JSON.stringify(posix)}\nhash = "${sha256(fs.readFileSync(src))}"\n`);
+    }
+  const indexToml = `hash-format = "sha256"\n\n${entries.join("\n")}`;
+  fs.writeFileSync(path.join(pw, "index.toml"), indexToml);
+  fs.writeFileSync(path.join(pw, "pack.toml"), [`name = ${JSON.stringify(cfg.name)}`, `version = ${JSON.stringify(cfg.version)}`, `pack-format = "packwiz:1.1.0"`, "", "[index]", `file = "index.toml"`, `hash-format = "sha256"`, `hash = "${sha256(indexToml)}"`, "", "[versions]", `minecraft = "${index.dependencies.minecraft}"`, `fabric = "${index.dependencies["fabric-loader"]}"`, ""].join("\n"));
+}
+
 // mrpack = zip of modrinth.index.json + overrides/
 const stage = path.join(dist, "mrpack");
 fs.rmSync(stage, { recursive: true, force: true });
@@ -103,8 +133,9 @@ if (fs.existsSync(overrides)) fs.cpSync(overrides, path.join(stage, "overrides")
 const out = path.join(dist, "bakgarden.mrpack");
 fs.rmSync(out, { force: true });
 // Windows' built-in bsdtar can write zip; elsewhere use `zip` (preinstalled on GitHub runners).
-if (process.platform === "win32") execFileSync("C:\\Windows\\System32\\tar.exe", ["--format", "zip", "-cf", out, "-C", stage, "."]);
-else execFileSync("zip", ["-qr", out, "."], { cwd: stage });
+const entries = fs.readdirSync(stage);
+if (process.platform === "win32") execFileSync("C:\\Windows\\System32\\tar.exe", ["--format", "zip", "-cf", out, "-C", stage, ...entries]);
+else execFileSync("zip", ["-qr", out, ...entries], { cwd: stage });
 console.log(`Wrote ${path.relative(root, out)} (${index.files.length} mods)`);
 
 if (args.includes("--server")) {
@@ -116,6 +147,12 @@ if (args.includes("--server")) {
     if (crypto.createHash("sha1").update(buf).digest("hex") !== f.hashes.sha1) throw new Error(`hash mismatch: ${f.path}`);
     fs.writeFileSync(path.join(serverDir, f.path), buf);
   }
+  // Our own server-only resource mod (Norwegian Essential Commands messages), zipped from pack/server-lang.
+  const lang = path.join(root, "pack/server-lang");
+  // Entries must not start with "./" or Fabric won't find fabric.mod.json.
+  const langEntries = fs.readdirSync(lang);
+  if (process.platform === "win32") execFileSync("C:\\Windows\\System32\\tar.exe", ["--format", "zip", "-cf", path.join(serverDir, "mods/bakgarden-lang.jar"), "-C", lang, ...langEntries]);
+  else execFileSync("zip", ["-qr", path.join(serverDir, "mods/bakgarden-lang.jar"), ...langEntries], { cwd: lang });
   if (fs.existsSync(overrides)) fs.cpSync(overrides, serverDir, { recursive: true });
   if (fs.existsSync(path.join(root, "server"))) fs.cpSync(path.join(root, "server"), serverDir, { recursive: true });
   console.log(`Server files in ${path.relative(root, serverDir)}/ — upload via SFTP`);

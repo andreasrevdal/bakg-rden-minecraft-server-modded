@@ -1,0 +1,8 @@
+name = "letsdo-vinery-fabric-1.5.6.jar"
+filename = "letsdo-vinery-fabric-1.5.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1DWmBJVA/versions/r0pP4RB4/letsdo-vinery-fabric-1.5.6.jar"
+hash-format = "sha1"
+hash = "5b1d5c74fc217dbb5e8c52e413daec4fee6e3d87"

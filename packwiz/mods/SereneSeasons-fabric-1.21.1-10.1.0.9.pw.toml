@@ -1,0 +1,8 @@
+name = "SereneSeasons-fabric-1.21.1-10.1.0.9.jar"
+filename = "SereneSeasons-fabric-1.21.1-10.1.0.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/e0bNACJD/versions/q34wStJM/SereneSeasons-fabric-1.21.1-10.1.0.9.jar"
+hash-format = "sha1"
+hash = "c945665da9813789839bea82281447c0cdd4860f"

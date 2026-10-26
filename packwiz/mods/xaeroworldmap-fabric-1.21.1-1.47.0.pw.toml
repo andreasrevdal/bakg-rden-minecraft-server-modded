@@ -1,0 +1,8 @@
+name = "xaeroworldmap-fabric-1.21.1-1.47.0.jar"
+filename = "xaeroworldmap-fabric-1.21.1-1.47.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NcUtCpym/versions/XIR7GzC3/xaeroworldmap-fabric-1.21.1-1.47.0.jar"
+hash-format = "sha1"
+hash = "db7ad23fe512dbc13a8286844fd9277c08a7ef5a"

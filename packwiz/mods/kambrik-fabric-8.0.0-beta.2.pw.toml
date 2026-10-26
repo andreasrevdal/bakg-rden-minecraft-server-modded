@@ -1,0 +1,8 @@
+name = "kambrik-fabric-8.0.0-beta.2.jar"
+filename = "kambrik-fabric-8.0.0-beta.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zfbCkvdZ/versions/eMIEIbFZ/kambrik-fabric-8.0.0-beta.2.jar"
+hash-format = "sha1"
+hash = "b5da4b9ed426728e02611642cabe1a6b0514ac95"

@@ -1,0 +1,8 @@
+name = "trade-cycling-fabric-1.21.1-1.0.23.jar"
+filename = "trade-cycling-fabric-1.21.1-1.0.23.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qpPoAL6m/versions/MLsKtoqa/trade-cycling-fabric-1.21.1-1.0.23.jar"
+hash-format = "sha1"
+hash = "1a3078e1dc8053d77873a8a93c00e059b74c0dc9"

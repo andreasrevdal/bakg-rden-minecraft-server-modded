@@ -1,0 +1,8 @@
+name = "travelersbackpack-fabric-1.21.1-10.1.39.jar"
+filename = "travelersbackpack-fabric-1.21.1-10.1.39.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rlloIFEV/versions/npKsvQvE/travelersbackpack-fabric-1.21.1-10.1.39.jar"
+hash-format = "sha1"
+hash = "d74374cfe5ef7d4afb4a6a3c2c9f48e41f334a8d"

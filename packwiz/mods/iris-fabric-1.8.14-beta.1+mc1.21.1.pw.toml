@@ -1,0 +1,8 @@
+name = "iris-fabric-1.8.14-beta.1+mc1.21.1.jar"
+filename = "iris-fabric-1.8.14-beta.1+mc1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/YL57xq9U/versions/bAo1Qhte/iris-fabric-1.8.14-beta.1%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "6776c0340845887477bfa463acc736ce7fcb6de5"

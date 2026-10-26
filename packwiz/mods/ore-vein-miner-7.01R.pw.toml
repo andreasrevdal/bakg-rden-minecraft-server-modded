@@ -1,0 +1,8 @@
+name = "ore-vein-miner-7.01R.jar"
+filename = "ore-vein-miner-7.01R.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Xl2GihRU/versions/DGYptgDM/ore-vein-miner-7.01R.jar"
+hash-format = "sha1"
+hash = "adb5916fb70231323fd92a54f756662c85192371"

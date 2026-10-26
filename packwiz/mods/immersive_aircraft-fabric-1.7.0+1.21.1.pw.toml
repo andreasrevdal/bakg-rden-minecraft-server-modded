@@ -1,0 +1,8 @@
+name = "immersive_aircraft-fabric-1.7.0+1.21.1.jar"
+filename = "immersive_aircraft-fabric-1.7.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/x3HZvrj6/versions/xOnNs6dK/immersive_aircraft-fabric-1.7.0%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "b2c60b1f10a97c0ccc997b0c4f6c1619ed79341b"

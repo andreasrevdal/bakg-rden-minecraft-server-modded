@@ -1,0 +1,8 @@
+name = "ImmediatelyFast-Fabric-1.6.15+1.21.1.jar"
+filename = "ImmediatelyFast-Fabric-1.6.15+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5ZwdcRci/versions/aLnBqxFW/ImmediatelyFast-Fabric-1.6.15%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "5067bdff1d5cc6d2dd89986f98bd8bd7ae62fb98"

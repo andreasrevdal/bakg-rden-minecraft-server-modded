@@ -1,0 +1,8 @@
+name = "bclib-21.0.13.jar"
+filename = "bclib-21.0.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BgNRHReB/versions/TxWM7AW8/bclib-21.0.13.jar"
+hash-format = "sha1"
+hash = "6a46eb6a8fb9cc0adb878b0ad12555834078c2b3"

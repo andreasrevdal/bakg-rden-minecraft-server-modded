@@ -1,0 +1,8 @@
+name = "mcw-mcwfences-1.2.1-mc1.21.1fabric.jar"
+filename = "mcw-mcwfences-1.2.1-mc1.21.1fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GmwLse2I/versions/ZGMGDbjg/mcw-mcwfences-1.2.1-mc1.21.1fabric.jar"
+hash-format = "sha1"
+hash = "f9be270761e17ad131f186b2537c2ce2f305815a"

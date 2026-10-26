@@ -1,0 +1,8 @@
+name = "immersive_armors-1.7.6+1.21.1-fabric.jar"
+filename = "immersive_armors-1.7.6+1.21.1-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eE2Db4YU/versions/4m0lwLNO/immersive_armors-1.7.6%2B1.21.1-fabric.jar"
+hash-format = "sha1"
+hash = "0e0636fc11a0a58a65ba8a932d51316fe2150f00"

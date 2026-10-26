@@ -1,0 +1,8 @@
+name = "Chunky-Fabric-1.4.23.jar"
+filename = "Chunky-Fabric-1.4.23.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fALzjamp/versions/RVFHfo1D/Chunky-Fabric-1.4.23.jar"
+hash-format = "sha1"
+hash = "6c8098fc0f124c7b6492de60db0108747f7f9821"

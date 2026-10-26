@@ -1,0 +1,8 @@
+name = "simplyswords-fabric-1.70.2-1.21.1.jar"
+filename = "simplyswords-fabric-1.70.2-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bK3Ubu9p/versions/3uFjo0ii/simplyswords-fabric-1.70.2-1.21.1.jar"
+hash-format = "sha1"
+hash = "322ec2cb0bbdb70c5e4106c85a984655ffaf921a"

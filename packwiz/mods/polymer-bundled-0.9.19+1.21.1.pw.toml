@@ -1,0 +1,8 @@
+name = "polymer-bundled-0.9.19+1.21.1.jar"
+filename = "polymer-bundled-0.9.19+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xGdtZczs/versions/xqZ9fctS/polymer-bundled-0.9.19%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "15a58f43a672ed486bee4f7983ae8ff566a6b5e7"

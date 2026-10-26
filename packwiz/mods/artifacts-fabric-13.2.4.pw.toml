@@ -1,0 +1,8 @@
+name = "artifacts-fabric-13.2.4.jar"
+filename = "artifacts-fabric-13.2.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/cTss6Iq4/artifacts-fabric-13.2.4.jar"
+hash-format = "sha1"
+hash = "58c9d21078945dec2d20df05aeacd635be9d3502"

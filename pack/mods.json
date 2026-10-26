@@ -1,6 +1,6 @@
 {
   "name": "Bakgården",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "minecraft": "1.21.1",
   "loader": "fabric",
   "mods": {
@@ -29,7 +29,7 @@
       "towns-and-towers", "explorify"
     ],
     "Sosialt": [
-      "simple-voice-chat", "open-parties-and-claims"
+      "simple-voice-chat", "open-parties-and-claims", "styledplayerlist", "styled-chat"
     ],
     "Admin": [
       "luckperms", "spark", "ledger", "essential-commands", "chunky", "bluemap", "minimotd"

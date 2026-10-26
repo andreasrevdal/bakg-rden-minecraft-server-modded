@@ -1,0 +1,16 @@
+{
+  "style_name": "Bakgården",
+  "update_tick_time": 40,
+  "list_header": [
+    "",
+    "<gr #c6f68d #45b649><bold>BAKGÅRDEN</bold></gr>",
+    "<color #9aa0a6>ᴋᴏꜱᴇʟɪɢ ꜱᴜʀᴠɪᴠᴀʟ · ᴍᴏᴅᴅᴇᴅ</color>",
+    ""
+  ],
+  "list_footer": [
+    "",
+    "<color #8ed16f>☺</color> <white>%server:online%</white><color #5c6370>/%server:max_players%</color>    <color #8ed16f>⚡</color> %server:tps_colored%    <color #8ed16f>☰</color> <white>%player:ping%</white><color #5c6370>ms</color>",
+    ""
+  ],
+  "hidden_in_commands": false
+}

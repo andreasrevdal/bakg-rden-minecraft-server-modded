@@ -1,0 +1,8 @@
+name = "graves-3.4.4+1.21.jar"
+filename = "graves-3.4.4+1.21.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/yn9u3ypm/versions/Fg64B87Y/graves-3.4.4%2B1.21.jar"
+hash-format = "sha1"
+hash = "e289663f13de87ed871fccb8837c5d69cc3bb2e6"

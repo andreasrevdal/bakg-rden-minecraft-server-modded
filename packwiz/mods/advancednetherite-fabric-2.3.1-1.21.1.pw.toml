@@ -1,0 +1,8 @@
+name = "advancednetherite-fabric-2.3.1-1.21.1.jar"
+filename = "advancednetherite-fabric-2.3.1-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CFX9ftUJ/versions/sfkuLHyi/advancednetherite-fabric-2.3.1-1.21.1.jar"
+hash-format = "sha1"
+hash = "8b9938f9911c80fcbdf9a1151247bcd980ed6bf5"

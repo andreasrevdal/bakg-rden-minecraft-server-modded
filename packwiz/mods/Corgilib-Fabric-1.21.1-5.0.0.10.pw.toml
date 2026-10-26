@@ -1,0 +1,8 @@
+name = "Corgilib-Fabric-1.21.1-5.0.0.10.jar"
+filename = "Corgilib-Fabric-1.21.1-5.0.0.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ziOp6EO8/versions/srVXMYcH/Corgilib-Fabric-1.21.1-5.0.0.10.jar"
+hash-format = "sha1"
+hash = "391e443e2e3856284c3f4a51b74f16aabcd563fb"

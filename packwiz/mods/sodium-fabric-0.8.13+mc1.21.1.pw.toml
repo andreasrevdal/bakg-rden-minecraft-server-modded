@@ -1,0 +1,8 @@
+name = "sodium-fabric-0.8.13+mc1.21.1.jar"
+filename = "sodium-fabric-0.8.13+mc1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/AANobbMI/versions/SMxNOGZ6/sodium-fabric-0.8.13%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "003c114c85ca88ef3362e018deb6aca0c682d6a1"

@@ -1,0 +1,8 @@
+name = "zoomify-2.15.2+1.21.1.jar"
+filename = "zoomify-2.15.2+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/w7ThoJFB/versions/6jrMC48Z/zoomify-2.15.2%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "9ec9c47e1d3465ea0cbd595b6d9d12227239c9a6"

@@ -1,0 +1,8 @@
+name = "styledplayerlist-3.5.1+1.21.jar"
+filename = "styledplayerlist-3.5.1+1.21.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/DQIfKUHf/versions/Ui7MOgqG/styledplayerlist-3.5.1%2B1.21.jar"
+hash-format = "sha1"
+hash = "f33770ba71d3e24b46591cefee106cf0e18d9eb7"

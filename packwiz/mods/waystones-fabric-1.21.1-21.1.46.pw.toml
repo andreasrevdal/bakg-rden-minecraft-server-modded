@@ -1,0 +1,8 @@
+name = "waystones-fabric-1.21.1-21.1.46.jar"
+filename = "waystones-fabric-1.21.1-21.1.46.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LOpKHB2A/versions/nSAwjAk4/waystones-fabric-1.21.1-21.1.46.jar"
+hash-format = "sha1"
+hash = "2ef078e0e3409e3a97ec3fdc0cfd7db7ca34bc40"

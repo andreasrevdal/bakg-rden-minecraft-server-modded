@@ -1,0 +1,8 @@
+name = "minimotd-fabric-mc1.21.1-2.1.3.jar"
+filename = "minimotd-fabric-mc1.21.1-2.1.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/16vhQOQN/versions/KIUjWgrk/minimotd-fabric-mc1.21.1-2.1.3.jar"
+hash-format = "sha1"
+hash = "ca0a112e4bbe2051e1f15b16960d48eff8df55c4"
