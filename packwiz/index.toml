@@ -156,11 +156,6 @@ hash = "94913eb82f1afae031ffced5d70fcad436eed0245fd726401c4faad7c94cf7d5"
 metafile = true
 
 [[files]]
-file = "mods/FallingTree-1.21.1-1.21.1.11.pw.toml"
-hash = "c1153ee3c1a14314d7cbdf7b7471e60b1f682014c97e7e074239c0541a21c840"
-metafile = true
-
-[[files]]
 file = "mods/FarmersDelight-1.21.1-3.3.6+refabricated.pw.toml"
 hash = "ad2934e59baecf40816e3935c0859136a398ddb058d444002f0e6238112c2a8b"
 metafile = true
@@ -366,11 +361,6 @@ hash = "547d43af9aaf0feb2eb22c32537a5f8f0359531a99f5712a19e3af665607eb34"
 metafile = true
 
 [[files]]
-file = "mods/ore-vein-miner-7.01R.pw.toml"
-hash = "b5b4795b9c3b418b36b515f44856033d0945e2f4f21a970aa61d44bcba0130b5"
-metafile = true
-
-[[files]]
 file = "mods/placeholder-api-2.4.2+1.21.pw.toml"
 hash = "a89c823c5faf389a86f46c2d7dfea3809f50304fdc09c6ab3df2e738ea3bd0e5"
 metafile = true
@@ -513,6 +503,16 @@ metafile = true
 [[files]]
 file = "mods/graves-3.4.4+1.21.pw.toml"
 hash = "de3134a22b176549e1b2bdcde40543875fad1daeac43cb952ce5d64b42c8f23b"
+metafile = true
+
+[[files]]
+file = "mods/veinminer-fabric-2.11.2+1.21.1.pw.toml"
+hash = "0abcd49758c9a656956ab3bb7820cd881eb1650b82f2ca7b133c9294c1220c56"
+metafile = true
+
+[[files]]
+file = "mods/veinminer-client-fabric-2.11.2+1.21.1.pw.toml"
+hash = "4377d24a89ca245afb0539666819773d703bb935a926792dfa305f4984d1602d"
 metafile = true
 
 [[files]]

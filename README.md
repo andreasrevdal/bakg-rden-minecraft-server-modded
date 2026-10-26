@@ -53,9 +53,9 @@ Ikke kopier `mods/` eller resten av `config/` – det er det som kommer nytt med
 | Mat og farming | Farmer's Delight + More Delight, Let's Do Vinery + Farm & Charm, Serene Seasons, Spice of Fabric, AppleSkin |
 | Dyr og mobs | Naturalist, Friends & Foes, Critters and Companions, Creeper Overhaul |
 | Bygging | Macaw's (møbler, tak, vinduer, dører, broer, gjerder), Handcrafted, Supplementaries, Rechiseled, Immersive Paintings |
-| Verktøy | Traveler's Backpack, Carry On, Waystones, Comforts, FallingTree, Ore Vein Miner, Leaves Be Gone, Iron Chests, Extended Drawers, Tom's Simple Storage, Immersive Aircraft, Universal Graves, Trade Cycling |
+| Verktøy | Traveler's Backpack, Carry On, Waystones, Comforts, VeinMiner (hold hurtigtasten – som FTB Ultimine), Leaves Be Gone, Iron Chests, Extended Drawers, Tom's Simple Storage, Immersive Aircraft, Universal Graves, Trade Cycling |
 | Verden | Tectonic + Terralith, BetterNether, Nullscape + Enderscape (End), YUNG's Dungeons/Mineshafts/Strongholds, Dungeons and Taverns, Towns and Towers, Explorify |
-| Sosialt | Simple Voice Chat, Open Parties and Claims, Essential Commands (`/home`, `/tpa`, `/spawn`, `/back`) |
+| Sosialt | Simple Voice Chat, Open Parties and Claims (lag og claims på kartet – som FTB Teams/Chunks), Essential Commands (`/home`, `/tpa`, `/spawn`, `/back`) |
 | Ytelse / QoL | Sodium, Iris, Lithium, FerriteCore, ModernFix, EntityCulling, ImmediatelyFast, Dynamic FPS, Jade, EMI, Xaero's Minimap/World Map, Zoomify, Resourcify (finn teksturpakker og shaders i spillet) |
 
 Full liste med versjoner: [`pack/modrinth.index.json`](pack/modrinth.index.json).

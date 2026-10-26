@@ -1,0 +1,8 @@
+name = "veinminer-fabric-2.11.2+1.21.1.jar"
+filename = "veinminer-fabric-2.11.2+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OhduvhIc/versions/XJrQXP5u/veinminer-fabric-2.11.2%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "67d3589a4ce4f3dd436af47c9dc4a1f439b9b12d"

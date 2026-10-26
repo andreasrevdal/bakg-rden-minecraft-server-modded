@@ -1,6 +1,6 @@
 {
   "name": "Bakgården",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "minecraft": "1.21.1",
   "loader": "fabric",
   "mods": {
@@ -20,7 +20,7 @@
       "macaws-fences-and-walls", "handcrafted", "supplementaries", "rechiseled", "immersive-paintings"
     ],
     "Verktøy og småtech": [
-      "travelersbackpack", "carry-on", "waystones", "comforts", "fallingtree", "ore-vein-miner", "leaves-be-gone",
+      "travelersbackpack", "carry-on", "waystones", "comforts", "veinminer", "veinminer-client", "leaves-be-gone",
       "ironchest", "extended-drawers", "toms-storage", "immersive-aircraft", "universal-graves", "trade-cycling"
     ],
     "Verden": [
