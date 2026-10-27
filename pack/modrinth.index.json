@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.7",
+  "versionId": "1.0.8",
   "name": "Bakgården",
   "files": [
     {
@@ -1053,6 +1053,21 @@
         "https://cdn.modrinth.com/data/znHQQtuU/versions/sIZPOFH7/moredelight-26.04.30-1.21-fabric.jar"
       ],
       "fileSize": 148418
+    },
+    {
+      "path": "mods/MouseTweaks-fabric-mc1.21-2.26.jar",
+      "hashes": {
+        "sha1": "ee81af33a5606ef2cd057e075833d7c69836c210",
+        "sha512": "1744a48a47aedcbf19a0a93f78473cf0221fc4782852dca7fc02685719174664b4f9d95d353fcfc16902ac3815594511ba6d9ab14391f9b7e25ec9b2e777927a"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aC3cM3Vq/versions/ylmBQ38A/MouseTweaks-fabric-mc1.21-2.26.jar"
+      ],
+      "fileSize": 75984
     },
     {
       "path": "mods/naturalist-2.0.7-fabric-1.21.1.jar",

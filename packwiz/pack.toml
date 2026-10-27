@@ -1,11 +1,11 @@
 name = "Bakgården"
-version = "1.0.7"
+version = "1.0.8"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3639fc464ac22808ab5950144ec3f0b473106c4e527bb4816e52cdeb0ca053ff"
+hash = "8cdce0376a62f120339dcfa3c3c409040ae453d77d3b49a5367b123c9bf66b61"
 
 [versions]
 minecraft = "1.21.1"

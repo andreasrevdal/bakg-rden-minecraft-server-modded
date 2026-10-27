@@ -1,6 +1,6 @@
 {
     "cooldown": 10,
-    "mustSneak": false,
+    "mustSneak": true,
     "delay": 0,
     "maxChain": 64,
     "needCorrectTool": true,
@@ -14,7 +14,7 @@
     "debug": false,
     "client": {
         "allow": true,
-        "require": true,
+        "require": false,
         "translucentBlockHighlight": true,
         "allBlocks": true,
         "overrides": {

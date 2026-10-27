@@ -351,6 +351,11 @@ hash = "c9b6a331ae0cb1cc486a0a5a60cb6229e3fc785c5efd8930193576f7096c195a"
 metafile = true
 
 [[files]]
+file = "mods/MouseTweaks-fabric-mc1.21-2.26.pw.toml"
+hash = "a56cc174825e0a89d7e004fb51ecb1b61ffd71db376d201409de4de7c6e5f57f"
+metafile = true
+
+[[files]]
 file = "mods/naturalist-2.0.7-fabric-1.21.1.pw.toml"
 hash = "a23f5ce0e1a080330f4a55d51c9075efd343a8814d9a0ccd0055471b72f8eb59"
 metafile = true
