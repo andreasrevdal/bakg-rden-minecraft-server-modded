@@ -581,5 +581,9 @@ hash = "bd5ab54daa4585df519ba66623278f59d98eacc0e60ccabeddc5c98033f0e7d7"
 metafile = true
 
 [[files]]
+file = "config/spiceoffabric.hjson"
+hash = "7ca3b99fe35ac9c5f52def29a518f3e0046341ebd0caf072b29f4b960f6a595e"
+
+[[files]]
 file = "config/wover/client.json"
 hash = "51139a6f2cf23cbb0f27503ff7a676a9117bbe390326c2f7e766927663d152ef"
