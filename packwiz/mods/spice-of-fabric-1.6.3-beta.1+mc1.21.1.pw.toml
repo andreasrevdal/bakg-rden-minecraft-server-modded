@@ -1,8 +1,0 @@
-name = "spice-of-fabric-1.6.3-beta.1+mc1.21.1.jar"
-filename = "spice-of-fabric-1.6.3-beta.1+mc1.21.1.jar"
-side = "both"
-
-[download]
-url = "https://cdn.modrinth.com/data/roxihOCb/versions/ysKCctvw/spice-of-fabric-1.6.3-beta.1%2Bmc1.21.1.jar"
-hash-format = "sha1"
-hash = "b12c0d95def4f442f9d2f5b200f962ee1c4e5fc4"

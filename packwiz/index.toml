@@ -441,11 +441,6 @@ hash = "de6cf6210680d261e731e046904470e8213f4a803ca63a6198c35dafbd2abd3d"
 metafile = true
 
 [[files]]
-file = "mods/spice-of-fabric-1.6.3-beta.1+mc1.21.1.pw.toml"
-hash = "57f7873cca16c7d14ddcafbc75276c6c0d945721b95a286ebf99527f41c720eb"
-metafile = true
-
-[[files]]
 file = "mods/styled-chat-2.6.1+1.21.pw.toml"
 hash = "5416f39b849d8bbed0a50537a301fd2ec7dbc2c1435704d81381d18d06dd72be"
 metafile = true
@@ -579,10 +574,6 @@ metafile = true
 file = "mods/zoomify-2.15.2+1.21.1.pw.toml"
 hash = "bd5ab54daa4585df519ba66623278f59d98eacc0e60ccabeddc5c98033f0e7d7"
 metafile = true
-
-[[files]]
-file = "config/spiceoffabric.hjson"
-hash = "7ca3b99fe35ac9c5f52def29a518f3e0046341ebd0caf072b29f4b960f6a595e"
 
 [[files]]
 file = "config/wover/client.json"

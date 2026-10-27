@@ -1,6 +1,6 @@
 {
   "name": "Bakgården",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "minecraft": "1.21.1",
   "loader": "fabric",
   "mods": {
@@ -10,7 +10,7 @@
     ],
     "Mat og farming": [
       "farmers-delight-refabricated", "more-delight", "lets-do-vinery", "lets-do-farm-charm",
-      "serene-seasons", "spice-of-fabric", "appleskin"
+      "serene-seasons", "appleskin"
     ],
     "Dyr og mobs": [
       "naturalist", "friends-and-foes", "critters-and-companions", "creeper-overhaul"

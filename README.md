@@ -50,7 +50,7 @@ Ikke kopier `mods/` eller resten av `config/` – det er det som kommer nytt med
 | Kategori | Mods |
 |---|---|
 | Progresjon | TieredZ, Artifacts + Trinkets, Bosses of Mass Destruction, Lootr, Bountiful, Simply Swords, Immersive Armors, Advanced Netherite, Enhanced Celestials |
-| Mat og farming | Farmer's Delight + More Delight, Let's Do Vinery + Farm & Charm, Serene Seasons, Spice of Fabric, AppleSkin |
+| Mat og farming | Farmer's Delight + More Delight, Let's Do Vinery + Farm & Charm, Serene Seasons, AppleSkin |
 | Dyr og mobs | Naturalist, Friends & Foes, Critters and Companions, Creeper Overhaul |
 | Bygging | Macaw's (møbler, tak, vinduer, dører, broer, gjerder), Handcrafted, Supplementaries, Rechiseled, Immersive Paintings |
 | Verktøy | Traveler's Backpack, Carry On, Waystones, Comforts, VeinMiner (snik og hugg – som FTB Ultimine), Leaves Be Gone, Iron Chests, Extended Drawers, Tom's Simple Storage, Immersive Aircraft, Universal Graves, Trade Cycling |
