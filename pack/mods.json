@@ -1,6 +1,6 @@
 {
   "name": "Bakgården",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "minecraft": "1.21.1",
   "loader": "fabric",
   "mods": {
@@ -39,7 +39,7 @@
       "sodium", "iris@1.8.14", "entityculling", "immediatelyfast", "dynamic-fps"
     ],
     "Klient-QoL": [
-      "modmenu", "jade", "emi", "xaeros-minimap", "xaeros-world-map", "zoomify", "travelers-titles", "resourcify"
+      "modmenu", "controlling", "jade", "emi", "xaeros-minimap", "xaeros-world-map", "zoomify", "travelers-titles", "resourcify"
     ]
   }
 }

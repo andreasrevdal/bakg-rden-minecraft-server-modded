@@ -76,6 +76,11 @@ hash = "4902cd63076bc2e885878c004ddfeef261d92e829c632f956ae7ad3175089e28"
 metafile = true
 
 [[files]]
+file = "mods/Controlling-fabric-1.21.1-19.0.5.pw.toml"
+hash = "6ad7b3da92e514bdbfbccafa6a5908c96c0948295c054dbe42d8deb3644003a5"
+metafile = true
+
+[[files]]
 file = "mods/Corgilib-Fabric-1.21.1-5.0.0.10.pw.toml"
 hash = "33cd9eabf817d8c7d4215c2ecbc817bb09cbcb5ca1f68307b79364f581cea3cd"
 metafile = true
@@ -393,6 +398,11 @@ metafile = true
 [[files]]
 file = "mods/Resourcify (1.21.1-fabric)-1.8.7.pw.toml"
 hash = "2217e394bbca6069435fb94d4bb4fac30a25a29c015f77a74b1bef1dafdabebd"
+metafile = true
+
+[[files]]
+file = "mods/Searchables-fabric-1.21.1-1.0.2.pw.toml"
+hash = "69a9f63c82231a89053e5531426103d4593a00d2361dfd8018cf6452399634ec"
 metafile = true
 
 [[files]]

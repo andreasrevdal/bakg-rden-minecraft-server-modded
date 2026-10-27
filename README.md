@@ -56,7 +56,7 @@ Ikke kopier `mods/` eller resten av `config/` – det er det som kommer nytt med
 | Verktøy | Traveler's Backpack, Carry On, Waystones, Comforts, VeinMiner (hold hurtigtasten – som FTB Ultimine), Leaves Be Gone, Iron Chests, Extended Drawers, Tom's Simple Storage, Immersive Aircraft, Universal Graves, Trade Cycling |
 | Verden | Tectonic + Terralith, BetterNether, Nullscape + Enderscape (End), YUNG's Dungeons/Mineshafts/Strongholds, Dungeons and Taverns, Towns and Towers, Explorify |
 | Sosialt | Simple Voice Chat, Open Parties and Claims (lag og claims på kartet – som FTB Teams/Chunks), Essential Commands (`/home`, `/tpa`, `/spawn`, `/back`) |
-| Ytelse / QoL | Sodium, Iris, Lithium, FerriteCore, ModernFix, EntityCulling, ImmediatelyFast, Dynamic FPS, Jade, EMI, Xaero's Minimap/World Map, Zoomify, Resourcify (finn teksturpakker og shaders i spillet) |
+| Ytelse / QoL | Sodium, Iris, Lithium, FerriteCore, ModernFix, EntityCulling, ImmediatelyFast, Dynamic FPS, Controlling (søk i tastevalg), Jade, EMI, Xaero's Minimap/World Map, Zoomify, Resourcify (finn teksturpakker og shaders i spillet) |
 
 Full liste med versjoner: [`pack/modrinth.index.json`](pack/modrinth.index.json).
 
