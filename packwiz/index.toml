@@ -71,6 +71,11 @@ hash = "6541a595c3850c46f83e853b876f79586bd7550dfc20129fac7b3a238c869105"
 metafile = true
 
 [[files]]
+file = "mods/collective-1.21.1-8.67.pw.toml"
+hash = "91cef1d97a7e65156a4b114c51be6e0088c379b4f47c36cf3e815e44d0c54c7e"
+metafile = true
+
+[[files]]
 file = "mods/comforts-fabric-9.0.5+1.21.1.pw.toml"
 hash = "4902cd63076bc2e885878c004ddfeef261d92e829c632f956ae7ad3175089e28"
 metafile = true
@@ -506,6 +511,11 @@ hash = "b6b141839c428eadd96f48b970b831536a7f2b7a1f8d517733ac3b52d81f8d49"
 metafile = true
 
 [[files]]
+file = "mods/treeharvester-1.21.1-10.3.pw.toml"
+hash = "7e674edc8b2f5c2fcfe8184a3b26b318fa7a139fd61baa65f87bd5bfd06dade1"
+metafile = true
+
+[[files]]
 file = "mods/trinkets-3.10.0.pw.toml"
 hash = "9fe4982372021a7f1d5e8afa3da3afc323fc4d740e38c54d569dad5b5a109faf"
 metafile = true
@@ -518,11 +528,6 @@ metafile = true
 [[files]]
 file = "mods/veinminer-fabric-2.11.2+1.21.1.pw.toml"
 hash = "0abcd49758c9a656956ab3bb7820cd881eb1650b82f2ca7b133c9294c1220c56"
-metafile = true
-
-[[files]]
-file = "mods/veinminer-client-fabric-2.11.2+1.21.1.pw.toml"
-hash = "4377d24a89ca245afb0539666819773d703bb935a926792dfa305f4984d1602d"
 metafile = true
 
 [[files]]

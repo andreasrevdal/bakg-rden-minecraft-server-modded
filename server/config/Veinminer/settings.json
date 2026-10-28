@@ -13,10 +13,10 @@
     "miningSpeedModifier": 0,
     "debug": false,
     "client": {
-        "allow": true,
+        "allow": false,
         "require": false,
         "translucentBlockHighlight": true,
-        "allBlocks": true,
+        "allBlocks": false,
         "overrides": {
             "cooldown": null,
             "mustSneak": null,

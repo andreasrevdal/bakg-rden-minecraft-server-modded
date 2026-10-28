@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.10",
+  "versionId": "1.0.11",
   "name": "Bakgården",
   "files": [
     {
@@ -213,6 +213,21 @@
         "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar"
       ],
       "fileSize": 1157166
+    },
+    {
+      "path": "mods/collective-1.21.1-8.67.jar",
+      "hashes": {
+        "sha1": "7915275a8a3f1668531ebff5a4e9511553bf5162",
+        "sha512": "2679b15df155414f3bcd0484b97ff0118fbb89a0e45b62b36c66edd27d306c649d80f92f280039357be0ec2dc0e6e70766978ec7c66cbaf02264d4a7a6483515"
+      },
+      "env": {
+        "client": "optional",
+        "server": "optional"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/e0M1UDsY/versions/i8fXkqej/collective-1.21.1-8.67.jar"
+      ],
+      "fileSize": 1307758
     },
     {
       "path": "mods/comforts-fabric-9.0.5+1.21.1.jar",
@@ -1520,6 +1535,21 @@
       "fileSize": 1508904
     },
     {
+      "path": "mods/treeharvester-1.21.1-10.3.jar",
+      "hashes": {
+        "sha1": "ac7aa7d6aaa138505e583f8f52f52516aa2cd66e",
+        "sha512": "2a78db435f4f50d2125852b72bcd5bdc33294af14ac49b19c7e4e505a52dae947db2cc683ba92893d8c7ee955a93c96dcec89a0ad82e45baf7d37acc8e0b24ac"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/abooMhox/versions/ejhqrWH2/treeharvester-1.21.1-10.3.jar"
+      ],
+      "fileSize": 156430
+    },
+    {
       "path": "mods/trinkets-3.10.0.jar",
       "hashes": {
         "sha1": "f54756f938c7c273713b9f97d4a987eec551e892",
@@ -1563,21 +1593,6 @@
         "https://cdn.modrinth.com/data/OhduvhIc/versions/XJrQXP5u/veinminer-fabric-2.11.2%2B1.21.1.jar"
       ],
       "fileSize": 643645
-    },
-    {
-      "path": "mods/veinminer-client-fabric-2.11.2+1.21.1.jar",
-      "hashes": {
-        "sha1": "8557803d79642e20d2bcaecb8de22de641e6dd4a",
-        "sha512": "6bbc5bed9bf8b252a1ba0a1afac309be36de8faf4945ccac5c8336a8545f918204064822649d474079a2ffe32e85d8d252e846a83f58a18cc0c64df655ab0e31"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/dxa0Bm8m/versions/PPnkQNVh/veinminer-client-fabric-2.11.2%2B1.21.1.jar"
-      ],
-      "fileSize": 192165
     },
     {
       "path": "mods/waystones-fabric-1.21.1-21.1.46.jar",

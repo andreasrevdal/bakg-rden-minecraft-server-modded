@@ -1,8 +1,0 @@
-name = "veinminer-client-fabric-2.11.2+1.21.1.jar"
-filename = "veinminer-client-fabric-2.11.2+1.21.1.jar"
-side = "client"
-
-[download]
-url = "https://cdn.modrinth.com/data/dxa0Bm8m/versions/PPnkQNVh/veinminer-client-fabric-2.11.2%2B1.21.1.jar"
-hash-format = "sha1"
-hash = "8557803d79642e20d2bcaecb8de22de641e6dd4a"
