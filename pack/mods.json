@@ -1,6 +1,6 @@
 {
   "name": "Bakgården",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "minecraft": "1.21.1",
   "loader": "fabric",
   "mods": {
@@ -24,7 +24,7 @@
       "ironchest", "extended-drawers", "toms-storage", "immersive-aircraft", "universal-graves", "trade-cycling"
     ],
     "Verden": [
-      "tectonic", "terralith", "betternether", "nullscape", "enderscape", "yungs-better-dungeons",
+      "betternether", "nullscape", "enderscape", "yungs-better-dungeons",
       "yungs-better-mineshafts", "yungs-better-strongholds", "dungeons-and-taverns",
       "towns-and-towers", "explorify"
     ],

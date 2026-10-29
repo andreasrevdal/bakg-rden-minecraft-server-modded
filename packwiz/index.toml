@@ -471,16 +471,6 @@ hash = "d2e76f80e910386858f6c08f3d18b4bd032767eaf01934a5451da5606c8067d8"
 metafile = true
 
 [[files]]
-file = "mods/tectonic-3.0.28-fabric-21.1.pw.toml"
-hash = "a0188dcb3c6baa99cf9f6af35c743a3ffc4a174fa5c7e53c7a1ea47755c9c1db"
-metafile = true
-
-[[files]]
-file = "mods/Terralith_1.21.x_v2.6.2.pw.toml"
-hash = "53cdf4655dfc25f8651aeb4c5838f463fa16f4d8285a63402ade159e8555e916"
-metafile = true
-
-[[files]]
 file = "mods/tiered-1.3.8.pw.toml"
 hash = "72dbb08d1bf4c7a9ae9fde686c412e82bbec6db41eccff9cbe997bc5734e2be8"
 metafile = true

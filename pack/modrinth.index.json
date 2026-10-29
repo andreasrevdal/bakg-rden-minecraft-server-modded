@@ -1415,36 +1415,6 @@
       "fileSize": 13669146
     },
     {
-      "path": "mods/tectonic-3.0.28-fabric-21.1.jar",
-      "hashes": {
-        "sha1": "41e58bae9c22e5999bfa56ae92f45ecdee07f1cf",
-        "sha512": "a15a85fb5c6d134d0967fa3ccd6797fa28348b69937b65b2a3bcd6173609e84ae97bd8400eb01013167ceca3434bf97216e879d4b0277c007f6deda7aa076afd"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/lWDHr9jE/versions/WdDiEKMn/tectonic-3.0.28-fabric-21.1.jar"
-      ],
-      "fileSize": 458013
-    },
-    {
-      "path": "mods/Terralith_1.21.x_v2.6.2.jar",
-      "hashes": {
-        "sha1": "c200e0c01f48aecd7f34c4be337d8ff65b60c2dc",
-        "sha512": "1dcd6d8576b5a664ca39aa530964c3439275c9ec1f83e4a43a35eb1eea125158f18d3a1d1b453db869f3f353555dfe69abc0460221c66f50613b5b30079ac54a"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/8oi3bsk5/versions/eWDLFabb/Terralith_1.21.x_v2.6.2.jar"
-      ],
-      "fileSize": 2813817
-    },
-    {
       "path": "mods/tiered-1.3.8.jar",
       "hashes": {
         "sha1": "c8dc1f56cc851047705dbc4048a6dcf65fa72282",
