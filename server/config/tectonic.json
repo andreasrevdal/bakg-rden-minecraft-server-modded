@@ -1,10 +1,10 @@
 {
   "biomes": {
     "temperature_multiplier": 1.0,
-    "temperature_offset": 0.1,
+    "temperature_offset": 0.25,
     "temperature_scale": 0.25,
     "vegetation_multiplier": 1.0,
-    "vegetation_offset": 0.0,
+    "vegetation_offset": -0.1,
     "vegetation_scale": 0.25
   },
   "caves": {
@@ -33,7 +33,7 @@
     // Horizontally scales erosion, primarily impacting mountains. Lower values = thicker mountain ranges and terrain between them.
     "erosion_scale": 0.25,
     // The threshold where plateau terrain becomes flatter terrain. Positive numbers favor flat terrain and negative numbers favor plateau terrain.
-    "flat_terrain_skew": 0.1,
+    "flat_terrain_skew": 0.4,
     // Some jungles generate massive pillars that can extend upwards of a hundred blocks tall.
     "jungle_pillars": true,
     // Skews terrain towards or away from oceans. Lower values = more oceans. Above -0.45, deep oceans will not spawn! Above -0.2, oceans will not spawn!
@@ -70,7 +70,7 @@
     // Greatly smoothens out the terrain like Tectonic v2, removing staircasing artifacts at the cost of strange/broken generation in deep oceans and windswept biomes.
     "ultrasmooth": false,
     // Vertically stretches terrain above sea level. Doubling this value will double the surface's height at a given point from sea level.
-    "vertical_scale": 1.125
+    "vertical_scale": 1.0
   },
   "islands": {
     "enabled": true,
